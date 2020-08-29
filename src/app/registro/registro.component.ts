@@ -33,7 +33,7 @@ export class RegistroComponent implements OnInit {
     this.apellidos='';
     this.dui='';
     this.mascota='';
-    this.precio=0;
+    this.precio=0.00;
     this.descuento=0;
     this.total=0;
     this.medicamento='';

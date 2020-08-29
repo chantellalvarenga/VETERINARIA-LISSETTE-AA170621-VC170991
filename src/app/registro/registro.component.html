@@ -27,6 +27,7 @@
         <input type="text" class="form-control" [(ngModel)]="mascota"  placeholder="Nombre de la mascota" required>
       </div>
       <div class="col-md-6">
+        <label for="costo">Costo:</label>
         <input type="text" class="form-control" [(ngModel)]="precio"  placeholder="Costo" required>
       </div>
     </div>
@@ -42,9 +43,6 @@
     </div>
 
     <div class="row pt-3 d-flex justify-content-around">
-        <div class="col-md-3">
-          <input type="reset" class="btn btn-warning btn-block" value="Limpiar" id="limpiar">
-        </div>
         <div class="col-md-3">
             <button class="btn btn-success btn-block" (click)="ingresarCliente()">Guardar</button>
         </div>
